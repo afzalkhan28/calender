@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+
+}
+.conatainer{
+    background-color: aliceblue;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4x 8x rgba(0,0,0,.3);
+}
+.month-name{
+    margin: 0;
+    background-color: rgb(246, 53, 53);
+    padding: 10px;
+    color: azure;
+    font-size: 30px;
+}
+.day-name{
+    font-size: 20px;
+    color: rgb(154, 144, 144);
+}
+.day-number{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.year{
+    margin:  0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(117, 58, 58);
+    background-color: bisque;
+}
